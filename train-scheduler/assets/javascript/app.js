@@ -53,6 +53,7 @@ database.ref().on("child_added", function(childSnapshot){
 //CONVERT TRAIN TIME================================================
 	var freq = parseInt(freq);
 	//CURRENT TIME
+
 	var currentTime = moment();
 	console.log("CURRENT TIME: " + moment().format('HH:mm'));
 	//FIRST TIME: PUSHED BACK ONE YEAR TO COME BEFORE CURRENT TIME
